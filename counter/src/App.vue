@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Counter App" />
+    <Counter />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Counter from "./components/Counter.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Counter,
   },
 };
 </script>
@@ -20,6 +20,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  max-width: 800px;
+  margin: 40px auto;
 }
 </style>
